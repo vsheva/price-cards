@@ -45,5 +45,62 @@ body {
   line-height: 25px;
   font-weight: 300;
 }
+.price-card__price {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.price-card__price.green-bg {
+  height: 105px;
+  background-color: #5bb189;
+}
+.price-card__price.blue-bg {
+  height: 105px;
+  background-color: #3a6ba5;
+}
+.price-card__price.orange-bg {
+  height: 105px;
+  background-color: #ec632a;
+}
+.price-card__description {
+  margin: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.price-card__options-list_item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.price-card__order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-card__order-btn button {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 11px 27px 12px 28px;
+}
+.price-card__order-btn button.blue-bg {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn button.orange-bg {
+  background-color: #ec632a;
+}
+.price-card__order-btn button.green-bg {
+  background-color: #5bb189;
+}
 
 /*# sourceMappingURL=styles.css.map */

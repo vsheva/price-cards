@@ -9,10 +9,8 @@ body {
   background-color: $body-background-color;
   color: $white;
   font-weight: 300;
-
   min-width: 100vw;
   min-height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +48,81 @@ body {
       font-size: 20px;
       line-height: 25px;
       font-weight: 300;
+    }
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    &.green-bg {
+      height:105px;
+      background-color:$green;
+    }
+
+    &.blue-bg {
+      height:105px;
+      background-color:$blue;
+    }
+
+    &.orange-bg {
+      height:105px;
+      background-color:$orange;
+    }
+  }
+
+  &__description{
+    margin:40px 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+
+  &__options-list{
+    &_item{
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+
+    }
+  }
+
+
+
+  &__order-btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    button{
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 20px;
+      border:none;
+      color:white;
+      padding:11px 27px 12px 28px;
+
+      &.blue-bg {
+        background-color:$blue;
+      }
+
+      &.orange-bg {
+        background-color:$orange;
+      }
+
+      &.green-bg {
+        background-color:$green;
+      }
+
     }
 
   }
