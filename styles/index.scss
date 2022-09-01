@@ -13,8 +13,45 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.price {
+  display: flex;
+}
 
+.price-card {
+  width: 380px;
+  background-color: $card-background-color;
+  margin-right: 18px;
+  box-shadow: 0px 6px 6px $shadow-color;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 33px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    span {
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: 300;
+    }
+
+  }
+}
 
