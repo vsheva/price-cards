@@ -1,0 +1,20 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $body-background-color;
+  color: $white;
+  font-weight: 300;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+
+}
+
+
+
