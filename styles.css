@@ -27,14 +27,17 @@ body {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.0862745098);
   overflow: hidden;
 }
+
 .price-card:last-child {
   margin-right: 0;
 }
+
 .price-card__title {
   text-align: center;
   padding-top: 32px;
   padding-bottom: 33px;
 }
+
 .price-card__title h2 {
   font-weight: 700;
   font-size: 35px;
@@ -43,11 +46,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .price-card__title span {
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
 }
+
 .price-card__price {
   font-weight: 700;
   font-size: 55px;
@@ -56,18 +61,22 @@ body {
   padding-top: 19px;
   padding-bottom: 19px;
 }
+
 .price-card__price.green-bg {
   height: 105px;
   background-color: #5bb189;
 }
+
 .price-card__price.blue-bg {
   height: 105px;
   background-color: #3a6ba5;
 }
+
 .price-card__price.orange-bg {
   height: 105px;
   background-color: #ec632a;
 }
+
 .price-card__description {
   margin: 40px 26px;
   font-weight: 300;
@@ -75,6 +84,7 @@ body {
   line-height: 18px;
   text-align: center;
 }
+
 .price-card__options-list_item {
   font-weight: 300;
   font-size: 15px;
@@ -82,12 +92,15 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
 .price-card__options-list_item:nth-child(odd) {
   background-color: #2a3438;
 }
+
 .price-card__options-list_item img {
   margin: auto 22px auto 22px;
 }
+
 .price-card__order-btn {
   display: flex;
   justify-content: center;
@@ -95,6 +108,7 @@ body {
   margin-bottom: 40px;
   margin-top: 39px;
 }
+
 .price-card__order-btn button {
   font-weight: 400;
   font-size: 14px;
@@ -104,15 +118,19 @@ body {
   color: white;
   padding: 11px 27px 12px 28px;
 }
+
 .price-card__order-btn button.blue-bg {
   background-color: #3a6ba5;
 }
+
 .price-card__order-btn button.orange-bg {
   background-color: #ec632a;
 }
+
 .price-card__order-btn button.green-bg {
   background-color: #5bb189;
 }
+
 .price-card__badge {
   position: absolute;
   right: -30px;
@@ -128,5 +146,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/*# sourceMappingURL=styles.css.map */
