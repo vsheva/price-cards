@@ -5,26 +5,32 @@
 }
 
 body {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
   font-family: 'Montserrat', sans-serif;
   background-color: $body-background-color;
   color: $white;
   font-weight: 300;
   min-width: 100vw;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
-.price {
+.price{
   display: flex;
+
 }
 
 .price-card {
+  position:relative;
   width: 380px;
   background-color: $card-background-color;
   margin-right: 18px;
   box-shadow: 0px 6px 6px $shadow-color;
+  overflow: hidden;
+
 
   &:last-child {
     margin-right: 0;
@@ -92,6 +98,13 @@ body {
       padding-top: 16px;
       padding-bottom: 16px;
 
+      &:nth-child(odd) {
+        background-color: #2A3438;
+      }
+
+      img{
+        margin:auto 22px auto 22px;
+      }
     }
   }
 
@@ -99,8 +112,10 @@ body {
 
   &__order-btn{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+   margin-bottom:40px;
+   margin-top:39px;
 
     button{
       font-weight: 400;
@@ -126,5 +141,26 @@ body {
     }
 
   }
+
+&__badge{
+  position: absolute;
+  right:-30px;
+  top: 30px;
+
+
+  width:147px;
+  height:25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background: #DC3F45;
+  transform: rotate(45deg);
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
 }
 
