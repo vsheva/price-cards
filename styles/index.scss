@@ -13,7 +13,8 @@ body {
   background-color: $body-background-color;
   color: $white;
   font-weight: 300;
-  min-width: 100vw;
+
+  width: 100vw;
   min-height: 100vh;
 
 }
@@ -26,9 +27,10 @@ body {
 .price-card {
   position:relative;
   width: 380px;
+  height:770px;
   background-color: $card-background-color;
   margin-right: 18px;
-  box-shadow: 0px 6px 6px $shadow-color;
+  box-shadow: 0px 6px 6px #00000016;
   overflow: hidden;
 
 
@@ -99,7 +101,7 @@ body {
       padding-bottom: 16px;
 
       &:nth-child(odd) {
-        background-color: #2A3438;
+        background-color: $list-background-color;
       }
 
       img{
