@@ -1,6 +1,6 @@
 # Price Cards Layout
 
-### [link](https://deluxe-halva-5cec34.netlify.app)
+### Open the [link](https://deluxe-halva-5cec34.netlify.app)
 
 Non responsible block of price list cards.
 
